@@ -5,95 +5,48 @@
     background-color:#2ECC71;
 }
 
-.vista {
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-    border: 10px solid #fff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
+.posicion{
+	right: -12px;
+	top: -10px;
+	position: absolute;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	background: #606061;
 }
-.vista .mascara, .vista .contenido {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
+
+
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
 }
-.vista img {
-    display: block;
-    position: relative;
+
+
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
 }
-.vista h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: hsla(0,0%,0%,0.8);
-    margin: 20px 0 0 0;
+
+.modalDialog > div {
+	width: 500px;
+	position: relative;
+	margin: 10% auto;
+	padding: 0px 0px 5px 0px;
+	border-radius: 10px;
+	background: #F0FFFF;
+	
 }
-.vista p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
-    text-align: center;
-}
-.vista a.informacion {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-}
-.vista img {
-    transition: all 0.2s linear;
-}
-.vista .mascara {
-    opacity: 0;
-    background-color: hsla(104,93%,45%,0.7); /* Color naranja con 0.7 de opacidad */
-    transition: all 0.4s ease-in-out;
-}
-.vista h2 {
-    opacity: 0;
-    transform: translateY(-100px);
-    transition: all 0.2s ease-in-out;
-}
-.vista p {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: all 0.2s linear;
-}
-.vista a.informacion{
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-}
-vista:hover img {
-    transform: scale(1.1);
-}
-.vista:hover .mascara {
-    opacity: 1;
-}
-.vista:hover h2,
-.vista:hover p,
-.vista:hover a.informacion {
-    opacity: 1;
-    transform: translateY(0px);
-}
-.vista:hover p {
-    transition-delay: 0.1s;
-}
-.vista:hover a.informacion {
-    transition-delay: 0.2s;
-}
+
