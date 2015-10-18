@@ -1,3 +1,11 @@
+.FONDO {
+    background-color: #FFCE00;
+}
+
+.fondito {
+    background-color: #000000;
+}
+
 .pacifico {
     font-family: 'Pacifico', cursive;
 }
@@ -13,3 +21,43 @@
 .normal {
     font-weight: 400;
 }
+
+.negrita {
+    font-weight: 800;
+}
+
+.espacio-arriba {
+    margin-top: 3em;
+}
+
+.espacio-abajo {
+    margin-bottom: 0.5em;
+}
+
+.mediano {
+    font-size: 45px;
+}
+
+.pequeno {
+    font-size: 30px;
+}
+
+.negro {
+    color: #000000;
+}
+
+.amarillo {
+    color: #FFCE00;
+}
+
+.naranja {
+    color: #FF1E16;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+
