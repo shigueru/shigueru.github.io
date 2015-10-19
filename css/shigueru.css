@@ -61,3 +61,13 @@
     list-style: none;
 }
 
+.retraso-1 {
+    animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+.cabin {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
