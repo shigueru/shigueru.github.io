@@ -1,73 +1,62 @@
-.FONDO {
-    background-color: #FFCE00;
+body {
+    background-color: #3F43AD;
+    margin: 0em;
 }
 
-.fondito {
-    background-color: #000000;
-}
-
-.pacifico {
-    font-family: 'Pacifico', cursive;
-}
-
-.grande {
-    font-size: 90px;
-}
-
-.dancing {
-    font-family: 'Dancing Script', cursive;
-}
-
-.normal {
+nav {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
+    font-size: 1em;
 }
 
-.negrita {
-    font-weight: 800;
+ul {
+    float: left;
+    list-style-type: none;
+    padding: 0em;
+    position: relative;
+    left: 50%;
 }
 
-.espacio-arriba {
-    margin-top: 3em;
+li {
+    float: left;
+    position: relative;
+    right: 50%;
 }
 
-.espacio-abajo {
-    margin-bottom: 0.5em;
+li a {
+    padding: 1em;
+    text-decoration: none;
+    color: white;
 }
 
-.mediano {
-    font-size: 45px;
+li a:hover {
+    color: #FE5442;
 }
 
-.pequeno {
-    font-size: 30px;
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    color: white;
 }
 
-.negro {
-    color: #000000;
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    color: #FE5442;
 }
 
-.amarillo {
-    color: #FFCE00;
-}
-
-.naranja {
-    color: #FF1E16;
-}
-
-.menu li {
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 20px;
-    list-style: none;
-}
-
-.retraso-1 {
-    animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
-}
-
-.cabin {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 400;
+footer {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
