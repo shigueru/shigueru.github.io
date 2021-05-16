@@ -1,4 +1,6 @@
 shigueru.github.io
 ==================
 
-Pagina personal, para mis experimentos web
+Pagina web con los enlaces a mis diferentes redes sociales y otras cuentas.
+
+[shigueru.github.io](https://shigueru.github.io)
